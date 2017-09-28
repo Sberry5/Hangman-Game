@@ -11,7 +11,36 @@
 
 <body>
 
+<!--Create Header-->
+<div id="masthead">
+	<h1>Hangman</h1>
+</div>
 
+<!--Create user instrutions-->
+<div id="maincontent">
+	<div id="start">
+		<h2>Press any key to get started!</h2>
+	</div>
+
+	<div>
+		<h2 id="wins">Wins: </h2>
+	</div>
+
+<!--Spaceholder for word-->
+	<div>
+		<h2 id="gameWord" onclick="createWord()"></h2>
+	</div>
+
+<!--Show number of guesses remaining-->
+	<div>
+		<h2 id="guesses">Number of Guesses Remaining: </h2>
+	</div>
+
+<!--Show letters already guessed-->
+	<div>
+		<h2 id="guessed">Letters Already Guessed: </h2>
+	</div>
+</div>
 
 <script src="assets/javascript/game.js"></script>
 
